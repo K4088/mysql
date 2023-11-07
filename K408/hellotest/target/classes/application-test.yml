@@ -1,0 +1,10 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /test   #意义何在？
+#角色信息配置,自定义
+role:
+  name: admin
+  descriptiption: 管理员
+  permissionIds: 20,21,22
+  
